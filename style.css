@@ -102,10 +102,12 @@ button {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     /* flex-direction: column; */
     /* justify-content: center; */
-    justify-content: space-between;
+    justify-content: center;
     flex-shrink: 1;
+    gap: 30px;
 }
 
 .block img {
@@ -126,4 +128,41 @@ button {
 }
 
 
+
+/* 3rd part cascading starts from here */
+
+.third-part {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 50;
+    font-size: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 20px 150px;  */
+
+    justify-content: space-around;
+    align-content: center;
+
+    padding: 80px 150px;
+}
+
+.card {
+    padding: 20px;
+    margin: 16px;
+    width: 400px;
+    border: #2b3038 solid;
+    border-radius: 15px;
+
+    
+    /* flex-grow: 1; */
+}
+
+.card span {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: flex-end;
+}
 
