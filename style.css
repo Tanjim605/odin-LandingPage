@@ -174,3 +174,39 @@ button {
     justify-content: flex-end;
 }
 
+/* 4th part cascading starts from here */
+
+.forth-part {
+    margin: 60px 150px;
+    background-color:#3882f6;
+    padding: 40px 90px;
+    color:#f9faf8;
+    display: flex;
+    border-radius: 15px ;
+
+    justify-content: space-between;
+}
+
+.head{
+    font-weight: 800;
+    padding-bottom:12px ;
+}
+
+.text {
+    font-weight: normal;
+}
+.forth-part button {
+    border: #f9faf8 solid 2px;
+    padding: 2px 20px;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+
+    color: #f9faf8;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 50;
+    font-style: italic;
+}
