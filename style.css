@@ -13,6 +13,8 @@ body{
     position: fixed;
     right: 0;
     left: 0;
+
+    align-items: center ;
 }
 
 .header,
@@ -57,9 +59,12 @@ body{
 ul li a {
     color: #f9faf8;
     text-decoration: none;
+    
 }
 ul li {
     list-style: none;
+    align-items: center;
+    display: flex;
 }
 
 .links{
@@ -74,7 +79,7 @@ ul li {
     gap: 20px;
     padding-bottom: 80px;
     margin-top: 0px;
-    padding-top: 95px;
+    padding-top: 125px;
 }
 
 button {
@@ -94,6 +99,7 @@ button {
     flex-direction: column;
 
     padding: 20px 150px;
+    align-items: center;
 }
 
 .title {
