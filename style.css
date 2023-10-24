@@ -65,7 +65,7 @@ ul li {
 .links{
     margin-left: auto;
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
 .top {
