@@ -10,7 +10,9 @@ body{
 }
 
 .header {
-    position: fixed;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
     right: 0;
     left: 0;
 
@@ -21,7 +23,7 @@ body{
 .top{
     background-color: #1f2937;
     display: flex;
-    padding: 20px 150px;
+    padding: 15px 150px;
 }
 
 .top-cover img {
@@ -79,7 +81,7 @@ ul li {
     gap: 20px;
     padding-bottom: 80px;
     margin-top: 0px;
-    padding-top: 125px;
+    /* padding-top: 125px; */
 }
 
 button {
@@ -90,6 +92,28 @@ button {
     height: 30px;
     padding: 2px 16px;
     margin-top: 15px;
+}
+
+button:hover {
+    background-color: #326fd1;
+    
+}
+
+a button{
+    flex-grow: 1;
+    /* background-color: #fff; */
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.watch a {
+    height: 24px;
+}
+
+.watch{
+    display: flex;
+    text-decoration: none;
+    
 }
 
 /* 2nd part cascading starts from here */
@@ -170,7 +194,7 @@ button {
     border-radius: 15px;
 
     
-    /* flex-grow: 1; */
+    /* flex-grow: 1; */ 
 }
 
 .card span {
@@ -215,4 +239,42 @@ button {
     padding: 30px;
     font-weight: 50;
     font-style: italic;
+}
+
+
+@media screen and (max-width: 600px) {
+    .forth-part,
+    .third-part,
+    .second-part,
+    .top{
+        /* background-color: black; */
+        flex-direction: column;
+        padding: 15px;
+        /* flex-grow: 1; */
+    }
+    .header
+    {
+        padding: 15px;
+    }
+
+    .second-part{
+        text-align: center;
+    }
+    
+    .top-cover img {
+        width: 100%; 
+        /* float:center; */
+    }
+    
+    .top-text{
+        /* width: 100%; */
+        flex-grow: 1;
+        flex-basis: 100%;
+    
+        width: 100%; 
+        float:left
+    }
+    .forth-part{
+        flex-grow: 1;
+    }
 }
